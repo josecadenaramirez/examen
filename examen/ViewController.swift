@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         searches = saveSearch.getHistory().reversed()
-        print("contador:\(searches[0].name)---")
+        
     }
 
     func getItems(_ name:String){
